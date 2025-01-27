@@ -1,0 +1,28 @@
+#progress-container {
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    height: 20px;
+    overflow: hidden;
+}
+
+#progress-bar {
+    height: 100%;
+    background-color: #4caf50;
+    transition: width 0.3s ease-in-out;
+}
+
+.quiz-question {
+    display: none;
+    margin-bottom: 20px;
+}
+
+#quiz-result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}
+#next-question {
+    display: inline-block !important;}
